@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headingGame {
+    color: rgb(83, 4, 4);
+  font-weight: bolder;
+  font-size: 5rem;
+  /* text-decoration: underline; */
+}
+body {
+  background-color: #e2f1ff;
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-color: beige ;
+  /* text-shadow: 12px; */
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: scale(1.01);
+}
+.rstbtn {
+  border: 1px solid black;
+  height: 5vmin;
+  width: 15vmin;
+  border-radius: 15px;
+  background-color: rgb(43, 43, 43);
+  /* padding: 1rem; */
+    border:none;
+    font-size:1.4rem ;
+    color:rgb(89, 15, 15);
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+
+}
+
+.rstbtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transform: scale(1.2);
+}
+
+#newgame{
+    border: 1px solid black;
+  height: 10vmin;
+  width: 25vmin;
+  border-radius: 10px;
+  background-color: rgb(72, 10, 10);
+  /* padding: 1rem; */
+    border:none;
+    font-size:1.4rem ;
+    color:rgb(89, 15, 15);
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+#newgame:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transform: scale(1.1);
+}
+
+#msg{
+    font-weight: 700;
+    color: rgb(118, 118, 46);
+    font-size: 5vmin;
+}
+
+.msg-box{
+    height: 120vmin;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.hide{
+    display: none;
+}
